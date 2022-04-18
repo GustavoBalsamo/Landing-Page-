@@ -1,4 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+.Learning-Coding{
+    background-color: #116CFF;
+
+}
+.info{
+    padding:3%;
+    display:flex;
+    justify-content: space-around;
+
+}
+.c{
+    width: 33.94px;
+    height: 34px;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28.5524px;
+    line-height: 29px;
+    color: #00235C;
+}
+.c span{
+    padding-left: 21%;
+}
+.coding span {
+    padding-left: 7%;
+}
+.coding {
+    display: flex;
+    align-items: center;
+    width: 81.94px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #00235C;
+}
+.ancoras{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.ancoras a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFE;
+    text-decoration: none;
+
+}
+.icone{
+    display:flex;
+    align-items: center;
+   
+
+}
+#ancora-escura{
+    font-weight: 800;
+}
+.foto-landing{
+    width: 75%;
+}
+.primeira-tela{
+    display: flex;
+}
+.toda-imagem{
+    height: 100%;
+}
+.grande{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.pequeno{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.escrita{
+    display:flex;
+}
+.texto{
+    flex-direction: column;
+}
+.escrita{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    width: 35%;
+    margin-top: 9%;
+    height: 65%;
+    padding-right: 15%;
+}
+.botao-branco{
+    line-height: 205%;
+    border-radius: 10px;
+    height: 100%;
+    width: 47%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #116CFF;
+    border-style: none;
+}
+.botao-transparente{
+    border-style: solid;
+    line-height: 205%;
+    border-radius: 10px;
+    height: 100%;
+    width: 47%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffff;
+    background: #116CFF;
+    border-color: #ffff;
+    border-width: 1px;
+}
+.primeira-tela{
+    align-items: center;
+}
+
 
 body {
     margin: 0;
@@ -64,14 +210,14 @@ p {
 .separador{
     display: flex;   
 } 
-header{
+#Testimony{
     margin-top: 7%;
     padding-left: 15%;
     text-align: left;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
+    font-weight: 700;
+    font-size: 33px;
     line-height: 25px;
     letter-spacing: 0.015em;
     color:#116CFF;
