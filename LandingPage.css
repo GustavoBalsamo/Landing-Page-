@@ -61,7 +61,173 @@ p {
     height: 120px;
 }
 
+.separador{
+    display: flex;   
+} 
+header{
+    margin-top: 7%;
+    padding-left: 15%;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color:#116CFF;
+}
 
-@media screen and (max-width: 1200px) {
-    section {
-        flex-direction: 
+.escuro{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;  
+}
+.claro{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+    }
+
+.balao{
+    background-image: url("./Img/background.png");
+    gap: 20px;
+    margin-top: 10%;
+    padding-left: 15%;
+    display: flex;
+}
+  
+.balao .claro{
+    width: 392px;
+}
+.foto{
+    width: 79.13px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    margin-right: 4%;
+}
+.foto2{
+    width: 79.13px;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    margin-left: 4%;
+}
+.conversa, .conversa2{
+    width: 550px;
+    Height:187px;
+    color: #00235C;
+    padding: 4%;
+    background: #E7F0FF;
+    border-radius: 20px;
+   
+    margin: 2%;
+}
+.conversa{
+    background: #FFE6E5;
+
+}
+.parte1{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    margin: 4%;
+    
+}
+.parte2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 4%;
+    
+
+}
+
+footer{
+    padding-right: 15%;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+.coment{
+    display: flex;
+    
+}
+.stars img{
+    padding-top: 5%;
+    height: 20px;
+}
+
+
+#aspa::before,
+#aspa::after {
+    color: #ff463a;
+    font-size: clamp(24px, 2vw, 36px);
+    font-style: bold;
+}
+
+#aspa::before {
+    content: open-quote;
+}
+
+#aspa::after {
+    content: close-quote;
+}
+
+#aspa{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.015em;
+    line-height: 180%;
+}
+.mensagem{
+    padding-top: 5%;
+}
+.arrow-left1{
+    width: 97px;
+    height: 0px;
+    position: absolute;
+    border-top: 3px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #FFE6E5; 
+    margin-top: 4%;
+  }
+  .arrow-left2{
+    width: 97px;
+    height: 0px;
+    position: absolute;
+    border-top: 3px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #E7F0FF;
+    margin-top: 4%;
+  }
+  .arrow-right1{
+    position: absolute;
+    border-top: 2px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #FFE6E5;
+    margin-top: 4%;
+    margin-left: 512px;
+  }
+  .arrow-right2{
+    position: absolute;
+    border-top: 2px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #E7F0FF;
+    margin-top: 4%;
+    margin-left: 512px;
+  }
+
+  
