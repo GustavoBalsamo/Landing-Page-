@@ -433,4 +433,109 @@ footer{
     margin-left: 512px;
   }
 
-  
+  .tabela{
+      width: 70%;
+      border-collapse: collapse;
+  }
+  .cabeçalho-1{
+    height: 40px;
+    background-color: #b3cbf7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+  }
+  .cabeçalho-2{
+     height: 50px;
+    background-color: #b3cbf7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+
+
+color: #00235C;
+  }
+  .item-1, .item-2, .item-3, .item-4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #116CFF;
+      height: 50px;
+      background-color: #FFFFFF;
+  }
+  .Our-Class{
+    display: flex;
+    justify-content: center;
+    background-color:#116CFF;
+
+  }
+  .primeiro-texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    height: 20px;
+    color: #00235C;
+    padding-left: 3%;
+}
+  }
+  .segundo-texto, .terceiro-texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #00235C;
+    
+  }
+  .tabela{
+    width: 70%;
+    height: 40%;
+    margin-top: 15%
+  }
+  .forte{
+      
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #00235C;
+    padding-right: 3%;
+  }
+.alinhar{
+    padding-left: 3%;
+}
+.vermelho{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #FF463A;
+    padding-right: 3%;
+}
+.detail-class{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.estrelas-cabeçalho{
+    padding-left: 3%;
+}
