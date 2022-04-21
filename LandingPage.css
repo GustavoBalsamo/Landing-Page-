@@ -38,14 +38,15 @@
     text-align: center;
     color: #00235C;
     background-color: #FFCF2D;
-    margin-left: 20%;
-    width: 14%;
-    height: 7%;
-    line-height: 299%;
+    margin-left: 23%;
+    width: 20%;
+    line-height: 275%;
 }
+
 .pop-up-2{
     border-radius: 20px;
     position: absolute;
+    width: 20%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -53,11 +54,8 @@
     text-align: center;
     color: #00235C;
     background-color: #E7F0FF;
-    margin-left: 0;
-    width: 14%;
-    height: 7%;
-    line-height: 299%;
-    margin-top: 20%;
+    line-height: 275%;
+    margin-top: 23%;
 }
 
 .foto-landing img{
@@ -130,6 +128,7 @@
     line-height: 180%;
     color: #FFFFFF;
     margin-right: 14%;
+    width: 85%;
 }
 .escrita{
     display:flex;
@@ -141,17 +140,15 @@
     display: flex;
     flex-direction: column;
     padding-left: 10%;
-    width: 35%;
     height: 65%;
-    padding-right: 15%;
 }
+
 .botao-header{
     line-height: 205%;
     border-radius: 10px;
-    height: 100%;
-    width: 155%;
-    padding-top: 15%;
-    padding-bottom: 13%;
+    padding: 20%;
+    padding-top: 7%;
+    padding-bottom: 3%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -165,28 +162,23 @@
 .botao-branco{
     line-height: 205%;
     border-radius: 10px;
-    height: 100%;
-    width: 47%;
-    padding-top: 5%;
-    padding-bottom: 5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 22px;
     text-align: center;
     color: #116CFF;
     border-style: none;
     margin-right: 5%;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .botao-transparente{
     border-style: solid;
     line-height: 205%;
     border-radius: 10px;
-    height: 100%;
-    width: 47%;
-    padding-top: 5%;
-    padding-bottom: 5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -197,6 +189,9 @@
     background: #116CFF;
     border-color: #ffff;
     border-width: 1px;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .primeira-tela{
     align-items: center;
@@ -297,9 +292,7 @@ p {
 
 .balao{
     background-image: url("./Img/background.png");
-    gap: 20px;
-    margin-top: 10%;
-    padding-left: 15%;
+    justify-content: center;
     display: flex;
 }
   
@@ -322,13 +315,13 @@ p {
 }
 .conversa, .conversa2{
     width: 550px;
-    Height:187px;
+    Height: 187px;
     color: #00235C;
     padding: 4%;
     background: #E7F0FF;
     border-radius: 20px;
-   
     margin: 2%;
+    margin-right: 8%;
 }
 .conversa{
     background: #FFE6E5;
@@ -339,14 +332,14 @@ p {
     align-items: center;
     
     flex-direction: column;
-    margin: 4%;
+
     
 }
 .parte2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 4%;
+
     
 
 }
@@ -422,7 +415,7 @@ footer{
     border-bottom: 20px solid transparent;
     border-left: 20px solid #FFE6E5;
     margin-top: 4%;
-    margin-left: 512px;
+    margin-left: 35%;
   }
   .arrow-right2{
     position: absolute;
@@ -430,12 +423,163 @@ footer{
     border-bottom: 20px solid transparent;
     border-left: 20px solid #E7F0FF;
     margin-top: 4%;
-    margin-left: 512px;
+    margin-left: 35%;
   }
+  .tabela{
+    width: 70%;
+    height: 60%;
+    border-collapse: collapse;
+}
+.cabeçalho-1{
+  height: 40px;
+  background-color: #b3cbf7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #00235C;
+}
+.cabeçalho-2{
+   height: 50px;
+  background-color: #b3cbf7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  border-left: 4px solid #FF463A;
+color: #00235C;
+}
+.item-1, .item-2, .item-3, .item-4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #116CFF;
+  height: 50px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #116CFF;
+}
+.Our-Class{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color:#116CFF;
+
+}
+
+.segundo-texto, .terceiro-texto{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #00235C;
+  
+}
+.tabela{
+    width: 70%;
+    height: 60%;
+
+}
+.forte{
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  color: #00235C;
+  padding-right: 3%;
+}
+.alinhar{
+  padding-left: 3%;
+}
+.vermelho{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  color: #FF463A;
+  padding-right: 3%;
+}
+.detail-class{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #116CFF;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.opt{
+  padding-left: 3%;
+}
+.segundo-texto{
+  display: flex;
+  margin-top: 13%;
+}
+
+.estrelas-cabeçalho{
+  padding-left: 3%;
+}
+.segunda-coluna{
+  display: flex;
+  padding-top: 8%;
+}
+#tag-new{
+  margin-left: 31%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FF463A;
+  background-color: #FFE6E5;
+  line-height: 204%;
+  padding: 21%;
+  border-radius: 6px;
+}
+
+.free-trial{
+  display:flex;
+}
+.align{
+  line-height: 144%;
+}
+
+.Header-1{
+padding-bottom: 7%;
+padding-left: 14%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 50px;
+color: #FFFFFF;
+}
 
   .tabela{
-      width: 70%;
+    width: 70%;
+    height: 60%;
       border-collapse: collapse;
+      margin-left: 15%;
   }
   .cabeçalho-1{
     height: 40px;
@@ -486,8 +630,10 @@ color: #00235C;
     height: 20px;
     color: #00235C;
     padding-left: 3%;
+    border-top-left-radius: 10px;
+    border-left: 4px solid #FF463A;
 }
-  }
+
   .segundo-texto, .terceiro-texto{
     font-family: 'Inter';
     font-style: normal;
@@ -497,10 +643,12 @@ color: #00235C;
     color: #00235C;
     
   }
+  .segundo-texto{
+    display:flex;
+  }
   .tabela{
     width: 70%;
-    height: 40%;
-    margin-top: 15%
+    height: 60%;
   }
   .forte{
       
@@ -526,16 +674,120 @@ color: #00235C;
     color: #FF463A;
     padding-right: 3%;
 }
-.detail-class{
+
+.estrelas-cabeçalho{
+    padding-left: 3%;
+}
+.reto{
+    width: 100%;
+}
+.div-botao{
+    padding-right: 2%;
+    border-top-right-radius: 10px;
+}
+#borda{
+    border-bottom-left-radius: 10px;
+}
+.borda{
+    border-bottom-right-radius: 10px;
+}
+.estrela-grande{
+    width: 63px;
+    height: 94px;
+
+}
+.estrela-pequena{
+    width: 39.54px;
+    height: 59px;
+    padding-top: 263%;
+    padding-left: 96%;
+
+}
+.texto-ultima-pagina{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #00235C;
+}
+.header-ultimo{
+    display: flex;
+    justify-content: center;
+    padding-right:6%;
+}
+.article-ultimo{
+    padding-top: 6%;
+    display: inline-grid;
+}
+.alinhar-estrela{
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1%;
+    padding-top: 1%;
+}
+.distancia{
+    padding-top: 7%;
+    margin-bottom: 16%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #00235C;
+}
+.input-balao{
+    margin-bottom: 8%;
+    border: 1px solid #BCD6FF;
+    width: 361px;
+    height: 39px;
+    padding-right: 20%;
+    border-radius: 10px;
+
+}
+
+.main-ultima{
+    display: flex;
+    margin-top: 3%;
+}
+.inputs-texto{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 21%;
+}
+#padding{
+    padding-left:18%;
+}
+#padding-2{
+    padding-left:28%;
+}
+.botao-registro{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-
-}
-.estrelas-cabeçalho{
+    background-color: #116CFF;
+    margin-left: 59%;
+    padding: 1%;
+    padding-right: 3%;
     padding-left: 3%;
+    border-radius: 10px;
+}
+.div-botao1{
+    margin-top:2%;
+}
+.foto-microfone{
+    margin-left: 120%;
+    margin-top: 60%;
 }
